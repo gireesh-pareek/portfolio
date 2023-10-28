@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import WorkTitles from "./WorkTitles";
 import Particles from "../Particle";
-import Home2 from "./Home2";
 
 import "./Home.css";
 
