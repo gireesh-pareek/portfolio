@@ -1,7 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 
-function WorkTitles() {
+function Type() {
   return (
     <Typewriter
       options={{
@@ -17,4 +17,4 @@ function WorkTitles() {
   );
 }
 
-export default WorkTitles;
+export default Type;
