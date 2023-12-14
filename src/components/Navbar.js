@@ -12,8 +12,8 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
 import { CgFileDocument } from "react-icons/cg";
+import { FaGithub } from "react-icons/fa";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -86,8 +86,19 @@ function NavBar() {
                 as={Link}
                 to="/resume"
                 onClick={() => updateExpanded(false)}
+                rel="noopener noreferrer"
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                href="https://github.com/gireesh-pareek"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub style={{ marginBottom: "2px" }} /> GitHub
               </Nav.Link>
             </Nav.Item>
 
