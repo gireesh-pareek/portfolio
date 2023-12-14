@@ -55,7 +55,7 @@ function Projects() {
               isBlog={false}
               title="ShareLoc"
               description="This is an instagram-like application where user can share their current locations along with their pictures."
-              ghLink="https://github.com/gireesh-pareek/ShareLoc"
+              ghLink="https://github.com/gireesh-pareek/ShareLoc/tree/main/frontend"
             />
           </Col>
           <Col md={4} className="project-card">
@@ -73,7 +73,7 @@ function Projects() {
               isBlog={false}
               title="Expense List"
               description="This is a basic expense list app using React. User can add and track all the expenses he has done in a given year."
-              ghLink="https://github.com/gireesh-pareek/expense-list"
+              ghLink="https://github.com/gireesh-pareek/expense-list/tree/master/Expense-list"
             />
           </Col>
         </Row>
