@@ -8,7 +8,7 @@ import {
   DiGit,
   DiJava,
 } from "react-icons/di";
-import { SiSpring, SiSpringboot, SiMysql} from "react-icons/si"
+import { SiSpring, SiSpringboot, SiMysql, SiApachekafka} from "react-icons/si"
 
 function Techstack() {
   return (
@@ -39,6 +39,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApachekafka />
       </Col>
     </Row>
   );
