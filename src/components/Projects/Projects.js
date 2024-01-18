@@ -63,7 +63,7 @@ function Projects() {
               imgPath={redbusImage}
               isBlog={false}
               title="Redbus Clone"
-              description="This is a Redbus clone with basic functionality built using React to understand basic functionalitiues of React."
+              description="This is a Redbus clone with basic functionality built using React to understand basic functionalities of React."
               ghLink="https://github.com/gireesh-pareek/redbus"
             />
           </Col>
@@ -72,7 +72,7 @@ function Projects() {
               imgPath={expenseListImage}
               isBlog={false}
               title="Expense List"
-              description="This is a basic expense list app using React. User can add and track all the expenses he has done in a given year."
+              description="This is a basic expense list app using React. User can add and track all the expenses he/she has done in a given year."
               ghLink="https://github.com/gireesh-pareek/expense-list/tree/master/Expense-list"
             />
           </Col>
