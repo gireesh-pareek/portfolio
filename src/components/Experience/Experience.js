@@ -41,10 +41,11 @@ const experiences = [
 
 function Experience() {
     return (
-        <Container fluid className="project-section">
+        <Container fluid className="experience-section">
             <Particle/>
             <Container>
-                <h1 className="project-heading">Professional <b className="purple">Experience</b></h1>
+                <h1 className="experience-heading">Professional <b className="purple">Experience</b></h1>
+                <br></br>
                 {experiences.map((exp, index) => (
                     <Row style={{justifyContent: "center", paddingBottom: "50px"}}>
                         <ExperienceCard
