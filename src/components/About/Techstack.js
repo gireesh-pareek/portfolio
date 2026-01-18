@@ -17,7 +17,7 @@ import {
     SiSnowflake,
     SiApacheairflow,
     SiDocker,
-    SiKubernetes, SiGithub, SiRedis, SiOpenai
+    SiKubernetes, SiRedis
 } from "react-icons/si"
 
 function Techstack() {
