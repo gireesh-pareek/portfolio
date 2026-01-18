@@ -19,13 +19,16 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            🚀 I'm a Software Sorcerer at <b class="purple"> <a className="purple" href="https://zenart.com/">Zen & Art Inc.</a> | Morgan Stanley</b>, weaving code spells for over 2 years.
-            <br></br>
-            <br></br>
-             💻 I wield the mighty tools of <b class="purple">Java, JavaScript, Spring Boot, MySQL, MongoDB, and React.js</b> to craft robust, scalable wonders.
-             <br></br>
-            <br></br>
-             🤖 When I'm not vanquishing software bugs, I'm on a quest to create even mightier systems with these enchanting technologies.
+              I am a <b className="purple"> Software Engineer </b> with over 4 years of experience building secure,
+              high-availability, low-latency microservices for global financial institutions
+              including
+              <b className="purple"> <a className={"purple"} href={"https://www.jpmorganchase.com/"}> JP Morgan Chase</a> </b>
+              and
+              <b className="purple"> <a className={"purple"} href={"https://www.morganstanley.com/"}> Morgan Stanley </a> </b>
+              <br></br>
+              <br></br>
+              I specialize in Java, Spring Boot, AWS, Kubernetes (EKS), Kafka,
+              and modernizing large-scale legacy systems into cloud-native architectures.
 
             </p>
           </Col>

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Experience from "./components/Experience/Experience";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
@@ -37,6 +38,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Projects />} />
+          <Route path="/Experience" element={<Experience />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />

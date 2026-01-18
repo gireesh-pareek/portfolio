@@ -7,8 +7,18 @@ import {
   DiMongodb,
   DiGit,
   DiJava,
+    DiAws,
 } from "react-icons/di";
-import { SiSpring, SiSpringboot, SiMysql, SiApachekafka} from "react-icons/si"
+import {
+    SiSpring,
+    SiSpringboot,
+    SiMysql,
+    SiApachekafka,
+    SiSnowflake,
+    SiApacheairflow,
+    SiDocker,
+    SiKubernetes, SiGithub, SiRedis, SiOpenai
+} from "react-icons/si"
 
 function Techstack() {
   return (
@@ -31,6 +41,24 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <DiAws />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiApacheairflow />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiDocker />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiKubernetes />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiRedis />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons">
+            <SiSnowflake />
+        </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
       </Col>

@@ -539,6 +539,21 @@ button:focus {
 }
 
 /* --------- */
+/* Experience */
+/* --------- */
+
+.experience-points {
+  padding-left: 18px;
+  margin: 0;
+}
+
+.experience-points li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+
+/* --------- */
 /* About */
 /* --------- */
 
